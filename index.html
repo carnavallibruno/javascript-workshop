@@ -12,18 +12,20 @@
 <body>
   <main>
     <div>
-      <h2>Lightbulb</h2>
+      <h1>Array - Adding or removing elements</h1>
     </div>
 
     <div>
-      <img id="bulbImage" src="./assets/images/pic_bulboff.gif" style="width:100px">
+      <p id="main-array"></p>
     </div>
-    
-    <div id="light-buttons">
-      <button onclick="turnLightOn()">Turn on the light</button>
-      <button onclick="turnLightOff()">Turn off the light</button>
+
+    <div>
+      <input id="characterField" type="text" placeholder="Character name">
+      <button id="add-button" onclick="addCharacters()">Add</button>
+      <button id="delete-button" onclick="deleteCharacters()">Delete</button>
+      <p id="fieldError"></p>
     </div>
-    </main>
+  </main>
     
     <script src="script.js"></script>
 </body>

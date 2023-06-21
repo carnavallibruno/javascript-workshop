@@ -10,17 +10,26 @@ body {
 }
 
 main {
-  width: 20%;
   height: 35%;
+  text-align: center;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
 
 #light-buttons {
-  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+#array-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fieldError {
+  color: red;
+  font-size: 12px;
 }
